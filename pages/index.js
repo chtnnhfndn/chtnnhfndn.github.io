@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,56 +13,41 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Imagine a world where everyone on the planet is free to do their{' '}
+          <Link className={styles.emphasis} href="docs/philosophy">lives&apos; work.</Link>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by reading our philosophy above, or deep diving into our areas of work below.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="blockchain" className={styles.card}>
+            <h2>Blockchain &rarr;</h2>
+            <p>How decentralization of power will be the greatest catalyst for social change in our time.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="quantum" className={styles.card}>
+            <h2>Quantum Computing &rarr;</h2>
+            <p>How quantum computing will bring about a positive impact on the environment.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="bci" className={styles.card}>
+            <h2>Brain Computer Interfaces &rarr;</h2>
+            <p>How BCI will allow humanity to break down the limits of possible.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
+          <a href="agi" className={styles.card}>
+            <h2>Artificial General Intelligence &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              The final piece to the puzzle of solving all our problems.
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        Do you want to help build this future? Join us!
       </footer>
     </div>
   )

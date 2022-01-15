@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "BluuNext-Bold";
+  src: url("../public/BluuNext-Bold.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Aileron-Regular";
+  src: url("../public/Aileron-Regular.otf") format("opentype")
+}
