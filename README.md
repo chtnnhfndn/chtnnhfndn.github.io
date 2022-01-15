@@ -1,5 +1,8 @@
 # chtnnhfoundation.org
 
+![CodeTriage](https://www.codetriage.com/chtnnhfoundation/chtnnhfoundation.org/badges/users.svg)
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+
 ## About
 
 This repository contains code for the chtnnhfoundation.org website. Built with Next.JS.
