@@ -5,20 +5,42 @@
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.header {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 7.5% auto 20%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.joinUsNavbar {
+  padding-left: 1.5rem;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.navbar a {
+  padding-left: 1.5rem;
+}
+
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: 2rem 1rem;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #eaeaea;
 }
 
 .footer a {
@@ -35,7 +57,10 @@
 
 .title a:hover,
 .title a:focus,
-.title a:active {
+.title a:active,
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
   text-decoration: underline;
 }
 
@@ -51,10 +76,17 @@
   text-align: center;
 }
 
-.description {
+.descriptionParas {
   margin: 4rem 0;
+}
+
+.description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.description p a {
+  text-decoration: underline;
 }
 
 .code {
@@ -69,6 +101,7 @@
 .grid {
   display: flex;
   align-items: center;
+  justify-self: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
@@ -84,6 +117,11 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+}
+
+.footnotes {
+  justify-self: flex-start;
+  text-align: left;
 }
 
 .card:hover,
@@ -113,6 +151,20 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .navbarLogo {
+    align-self: center;
+    width: auto;
+    height: auto;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .joinUsNavbar {
+    display: none;
   }
 }
 
