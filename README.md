@@ -1,6 +1,5 @@
 # chtnnhfoundation.org
 
-![CodeTriage](https://www.codetriage.com/chtnnhfndn/chtnnhfoundation.org/badges/users.svg)
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 
 ## About
