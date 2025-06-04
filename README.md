@@ -1,6 +1,6 @@
 # chtnnhfoundation.org
 
-![CodeTriage](https://www.codetriage.com/chtnnhfoundation/chtnnhfoundation.org/badges/users.svg)
+![CodeTriage](https://www.codetriage.com/chtnnhfndn/chtnnhfoundation.org/badges/users.svg)
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 
 ## About
@@ -11,7 +11,7 @@ This repository contains code for the chtnnhfoundation.org website. Built with N
 
 Thanks for your interest in contributing! To help build this site and make it better:
 
-- You can file issues on [GitHub](https://github.com/chtnnhfoundation/chtnnhfoundation.org)
+- You can file issues on [GitHub](https://github.com/chtnnhfndn/chtnnhfoundation.org)
 - Help resolve issues and file PRs, check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 ## License
