@@ -22,3 +22,4 @@ The license can be found [here](./LICENSE.md).
 - Next.JS
 - Open source fonts: Aileron & BluuNext.
 - @briandk on GitHub for the amazing CONTRIBUTING.md template.
+- Cloudflare Pages deployment
